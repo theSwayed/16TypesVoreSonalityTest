@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16种丸吞爱好性格特质测试</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit"/>
+    <!--
+        Used my own style as to not cramp anyone else's' :) - Snapps
+        Everything still "works" with the other style but it does look jank.
+     -->
+    <link rel="stylesheet" href="styles/snappsStyle.css"/>
+
+    <!-- Discord Preview -->
+    <meta property="og:site_name" content="Vore Personality Test">
+    <meta property="og:url" content="https://tastytales.github.io/">
+    <meta property="og:title" content="Vore Personality Test">
+    <meta property="og:description" content="Find out your Predator or Prey Personality Indicator!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" itemprop="image"
+          content="https://cdn.discordapp.com/attachments/759881339800911874/981737005115400232/unknown.png">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Vore Personality Test"/>
+    <meta name="twitter:description" content="Find out your Predator or Prey Personality Indicator"/>
+    <meta name="twitter:image"
+          content="https://cdn.discordapp.com/attachments/759881339800911874/981737005115400232/unknown.png"/>
+
+</head>
+
+<body>
+<div id='main-menu'>
+    <h1 id='title'>丸吞爱好性格特质测试</h1>
+    <h3 id='subtitle'>找到你的丸吞倾向特质合集！</h3>
+    <div id="content">
+        <p>
+            你可以简称此测试为：STTI (Smuxray-TastyTales Type Indicator)。
+            <br>
+            此为个人翻译版，非原创，非转载，全文魔改。
+            <br>
+            如果您对测试内容感到疑惑甚至质疑，别骂，直接去原版。
+            <br>
+            原版测试地址：<a href="https://tastytales.github.io/">16 Types Voresonality Test</a>
+        </p>
+        <p>
+            感谢作者们开源内容，
+            <a href="https://aryion.com/forum/viewtopic.php?f=18&t=45206" target="_blank">查看作者原贴</a> 。
+        </p>
+        <p>
+            感谢某位&nbsp;进制代码转化工程师&nbsp;帮忙优化界面，教导替换内容，帮忙制作了图表与下载为图片的功能。
+        </p>
+        <p>
+            本测试基于
+            <a href="https://www.bilibili.com/video/BV1vN4y157Pm/" target="_blank">MBTI (梗百科视频)</a>
+            进行设计，旨在通过测试定位角色的16种丸吞性格特质，以得到角色的性格特质合集。
+        </p>
+        <p>
+            你可通过代入设定Or感兴趣的角色，得出角色的丸吞倾向特质集合；当然也可以选择代入自己以搞懂自己的成份。
+        </p>
+        <p>
+            请注意：本测试<span style="color:orangered;">纯娱乐向</span>，当前版本是我的个人翻译版，是基于原版2022.8.12更新的副本，截至2023.9的最新版。
+        </p>
+        <p>
+            <span style="color:orangered;">再次警告</span>：试题已被大量魔改，题目、结果与原版存在偏差，欢迎尝试，感谢提供宝贵意见，但不欢迎批评！
+        </p>
+    </div>
+
+    <p>请选择进行测试的角色的身份</p>
+    <div class="pick-button-container">
+        <button class="pick-pred" id='pred-button'>食者</button>
+        <button class="pick-wprey" id='wprey-button'>自愿型猎物</button>
+        <button class="pick-uprey" id='uprey-button'>被迫型猎物</button>
+    </div>
+</div>
+<div id='test-menu' style='display:none;'>
+    <div id="progress-bar">
+        <div id="progress-bar-full">
+
+        </div>
+    </div>
+    <div id="question-containter">
+        <div class="test-options">
+            <button class="navbuttons" id='back-button' title="上一题">◀</button>
+        </div>
+        <h1 id="question-header"></h1>
+        <div class="test-options">
+            <button class="navbuttons" id="reset-button" title="重置全部试题">↻</button>
+        </div>
+    </div>
+    <p id="question-text"></p>
+    <div class="testbuttons-container">
+        <button class="testbuttons" id='strdis-button'>强烈反对</button>
+        <button class="testbuttons" id="dis-button">不太一样</button>
+        <button class="testbuttons" id="na-button">无法抉择</button>
+        <button class="testbuttons" id="agr-button">大差不差</button>
+        <button class="testbuttons" id="stragr-button">非常认同</button>
+    </div>
+</div>
+<div id='results-menu' style='display:none;'>
+    <div id="results-show">
+        <div id="results-desc">
+            <p id="results-desc-header-type"></p>
+            <p id="results-desc-header-title"></p>
+            <p id="results-desc-header-type-desc"></p>
+            <p id="results-desc-header-quote"></p>
+            <p id="results-desc-text"></p>
+            <p id="results-summarize-text"></p>
+        </div>
+        <div id="results-scores">
+            <div id="main" style="width: 270px;height: 270px"></div>
+
+            <div id="results-desc-score-text">
+
+            </div>
+        </div>
+    </div>
+    <div id="results-buttons">
+        <a id="results-share"><p>将结果下载为图片</p></a>
+        <button class="reset-button" id="reset-button-2">重置测试</button>
+    </div>
+</div>
+
+
+<footer>
+    <div>
+        <i>丸吞爱好性格特质测试&nbsp;原版测试地址：
+            <a href="https://tastytales.github.io/">16 Types Voresonality Test</a></i>
+    </div>
+</footer>
+
+<script src="script/echarts.min.js"></script>
+<script src="script/script.js"></script>
+<script src="script/jquery-1.8.2.min.js"></script>
+<script src="script/html2canvas.js"></script>
+<script src="script/bluebird.min.js"></script>
+<script src="script/download.js"></script>
+
+</body>
+
+</html>

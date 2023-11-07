@@ -1,0 +1,1006 @@
+[
+  {
+    "question": "我只是在被吞食这件事上找点乐子以此逃避我无聊的人生罢了，它并不能给我带来其他的代入感和欲望。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我不介意被一个完全陌生的人吃掉。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "有时我会对其他猎物的被吞食经历产生嫉妒。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "被吞食带给我的感觉里，来自身体上的体验与感受要大于被吞食这件事的意义带给我的感受。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "比起被一个陌生人莫名其妙地吞下，我宁愿成为朋友腹中的食物。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我不会抵触和其他成为食物的人待在同一个肚子里，甚至会感到舒适。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我喜欢帮助她们练习如何吃人，即便那意味着用于练习的猎物是我自己。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会为了满足自己被吃掉的愿望而将自己置身于危险的境地中。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "被吞食于我而言更像是一种心灵上的满足而不是享受身体上的欲望。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "幻想自己正蜷缩在她的胃里更能使我的心灵感到满足和放松，而不是让我兴奋和做些运动。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+
+  {
+    "question": "我会将我的命运交给上帝掷下的骰子，如果某一天她真的抓住我的肩膀用将张开的嘴迎接我的身体，我会欣然接受。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果可以的话，我期待她能通过种种方法提前知道我最想要的，然后主动地满足我的渴望。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+
+  {
+    "question": "我不会试图主动吸引她的注意力，而是等待着她主动找上我。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我有自己的风格和口感，她应该适应，而不是挑剔。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果她不愿意吃我，我会为了被她吃掉而想办法主动钻进她的肚子里。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我明明很好吃啊，为什么她会嫌弃地看着我？肯定是她的问题！",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她看我的眼神有些怪，可能是因为我太过于主动和自愿了，毕竟求着被她吃掉的食物，我想她大概也是第一次遇见吧？",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她张开的红唇和咕噜作响的胃令我暗自激动不已。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当她在我面前打哈欠时，看着她张大的嘴巴和猩红的口腔，我真的需要相当努力才能遏制自己直接跳进去的冲动。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我期待在自己竭尽所能与她周旋的过程中被她逼到绝境，最终无可奈何地被她咽下。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会尽我所能地吸引她的注意，以使得她能够将饥饿与渴望的眼神投向我。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+
+  {
+    "question": "当她吞到我的双腿之间时，哪怕只是不经意间被她柔软温暖的舌头触碰一下，都能令我爽到飞起。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "待在她的胃里这件事本身更加使我感觉舒适。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "紧紧被她的喉咙束缚着，被挤压着吞下去，这对我来说是一件爽到升天的事情。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "被困在她的胃里这件事光是想想都觉得兴奋，如果真的发生了，我想我绝对会自己先在里面爽一把。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "即使是在我深沉的梦里，也会时常或偶尔出现被她吞下的故事与场景。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+
+  {
+    "question": "我喜欢听到她称赞于我的味道和贡献，发出满足的轻吟。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会竭尽所能地让她吞下我的过程尽可能顺利，让她的体验尽可能舒适。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我希望她在吃下我的整个过程中可以做到相互尊重，我会尽量满足她的偏好，她也尽量满足我的诉求。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我安心地躺在她的胃里，任凭她支配我的身体和命运。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我被她吞入腹中时，我会热衷于扭动自己的身体，摩擦她湿滑柔嫩的胃壁。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我希望我在她的眼里仅仅只是纯粹的食物，一旦我被她吞下之后，我就彻底失去了其他身份。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我很乐意和寻常的食物同时处于她的肚子里，这样能加深我只是她的食物这唯一身份的认知。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "比起被她用语言挑逗我的处境和命运，我更喜欢被她隔着肚皮抚摸我的身体。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我希望我对于她来说是特别的，是她独一无二的食物，而不是她众多食物中平平无奇的一个。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "听着她体内心脏跳动和肠道蠕动的声音使我感到安心。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我与她在情感上的连接相比她吃掉我这个行为带给我的感受更为重要。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我被她吞入腹中之后，我会倾向于与她聊天而不是保持沉默。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我喜欢她略带妩媚地调笑或嘲弄我的那些言论。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "被她吃掉这件事能使我的心情变得更好，增加我的自我认同感，而不是给我带来性方面的刺激。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  }
+]

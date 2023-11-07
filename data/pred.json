@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "腹中食物的感受于我而言无关紧要。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "能够成为我的食物，他们应该感到荣幸。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "有时我会花费额外的时间来折磨或者照顾他们，那是因为我有额外的个人需求，而不是为了照顾他们的情绪，毕竟，我打心底觉得他们的感受与我无关。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "那些仍在挣扎的食物需要明白自己的处境和与我之间的差距。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "那些哭喊着求我不要吃掉他们的猎物，恰好证明了他们应该成为食物的价值。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果我的猎物在被我吞下的过程中感到不适，我会考虑他们的感受并停止这一进程。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会倾听猎物们的愿望，并尽可能地保证我们双方都能得到满足。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我更喜欢我的猎物是自愿的；如果他们没有自愿倾向，我会尝试引诱他们。但如果引诱失败或面对强烈反抗的猎物，我大概率不会继续。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会尽可能地让我的食物在被我吃下的过程中感到舒适。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果我因为某些特殊原因而不得不消化一个被迫的猎物，我会感到沮丧难过甚至是后悔。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我吃下他们的核心诉求是为了果腹，这是我不可抗拒的生理能需求。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "他们在我的体内发出朦胧模糊的呼喊，我并不想去聆听他们的诉求。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "和即将成为食物的个体交谈是没有意义的，我的脑海里只有关于他们即将滑入我的喉咙这一事的期待。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "食物就是食物，不存在什么多重身份，仅此而已。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我认为吞食并吸收猎物的营养能使我变得更加美丽与强大。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "被吞下的猎物应该有一些反应的，比如期待，比如恐惧。如果他们就这样平淡地进了我的肚子，我反而觉得没什么意思。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我更喜欢食物被困在我的体内给我带来的感觉，而不是他们本身的口感或者味道。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我从不会忘记我的猎物是有思想和感情的生物。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我记得每一个被我吞下的食物，他们通常都能给我留下美好的回忆，而不是单纯的食物。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我认为更亲近的人会有更好的口感，或者相反…总之，我不会将所有猎物一视同仁。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我时常出去狩猎，搜寻我潜在的食物，无论是在寂静的小巷还是在人潮涌动的公共场合，而不是等待着猎物自投罗网。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果我的猎物不想被吃掉，那么他们应该更加努力的逃跑，而不是期待我会放过他们。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我偶遇某个美味的猎物时，我会毫不犹豫地着手准备将他变成我的食物。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果猎物难以被捕获，我不会抵触使用一些比较极端的手段，而不是知难而退。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我很享受狩猎的过程带给我的快乐。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我等待着猎物主动接近我，而不是主动去寻找他们。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我通常不会主动表露想要吃掉某人的欲望，因为这会让我感觉害羞或者紧张。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我喜欢在正式吃掉他之前以非食者的身份与他交往，引诱他主动投怀送抱。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我希望我的猎物能主动迈出第一步，而不是非要我自己动手。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "一想到他会主动将我的肚子填得满满当当，我就兴奋不已。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "消化吸收掉腹中的食物能令我湿润起来。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "揉搓自己的肚子使里面的食物被消化的速度加快能使我更加湿润。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "即使腹中的食物已经彻底成为了我的一部分，我也会对着他们加入我身体的部分或者残余的部分进行挑逗嘲弄。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我希望随着腹中的食物被我消化与吸收，我的身体曲线能更加明显，身材变得更加火辣诱人。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我之所以喜欢吞食他们…当然是因为这件事很容易让我变得湿哒哒的~",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "将猎物留在胃里令我舒适且安心。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "有时我会长时间隔着肚子轻抚里面的猎物，体会他们的存在。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "在吞下食物之后，我常常因为满足和兴奋陷入疲倦甚至困意当中。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "吞食猎物的过程不一定非得和性有关呀，感官上的体验也可以令我满足。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我沉浸在和食物的互动中，体会并享受他们带给我的冲击，而不是为了让自己变得更湿润。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  }
+]
