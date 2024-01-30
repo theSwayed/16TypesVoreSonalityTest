@@ -267,7 +267,6 @@ function onAnswer(index) {
     if (checkFinal()) {
         return;
     }
-    ;
 
     //load next question
     nextQuestion();
