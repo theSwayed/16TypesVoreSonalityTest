@@ -303,10 +303,7 @@ function finalResult() {
     typeMap.push(scores.V >= scores.E ? "V" : "E")
     typeMap.push(scores.A >= scores.P ? "A" : "P")
     typeMap.push(scores.X >= scores.N ? "X" : "N")
-    console.log("scores", scores)
-    console.log("typeMap", typeMap)
     type = typeMap.join('');
-    console.log("type2", type)
     let transMap = [];
     let keyMap = [];
     $.each(typeMap, function (index, value) {
@@ -316,7 +313,6 @@ function finalResult() {
     transTypeDesc = transMap.join(' / ');
     typeDesc = keyMap.join(' / ');
     type = type + '-' + getData(testType, 'mark');
-    console.log("type3", type)
 
     // 设置结果头部的测试类型输出
     $('#results-desc-header-type').text(type);
@@ -348,7 +344,6 @@ function getDesc(my_type, tags = [], output = ["I", "S", "V", "E", "A", "P", "X"
 const hashRegex = /^#([IS][VE][AP][XN])-([A-Z]+)(?:\/(\d{1,3}(?:-(\d{1,3})){7}))?$/i;
 
 function processHash() {
-    console.log("识别hash", window.location.hash)
     if (window.location.hash == '' || window.location.hash == '#') {
         resetTest();
         resetScores();
@@ -359,11 +354,9 @@ function processHash() {
             const mark = (m[2] ?? '').toUpperCase();
             const load = getData(mark);
             testType = load.slug;
-            console.log("重置testType", testType)
             changeTheme(load.bgColor);
             if (m[3]) {
                 const tokens = m[3].split('-');
-                console.log('识别分数', tokens)
                 scores.I = parseInt(tokens[0]);
                 scores.S = parseInt(tokens[1]);
                 scores.V = parseInt(tokens[2]);
@@ -374,7 +367,6 @@ function processHash() {
                 scores.N = parseInt(tokens[7]);
             } else {
                 const type = m[1].toUpperCase();
-                console.log('初始化分数', type)
                 if (type[0] == 'I') scores.I = 30; else scores.S = 30;
                 if (type[1] == 'V') scores.V = 30; else scores.E = 30;
                 if (type[2] == 'A') scores.A = 30; else scores.P = 30;
