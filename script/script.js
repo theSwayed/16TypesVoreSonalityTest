@@ -247,6 +247,7 @@ function setQuestionType() {
 function checkFinal() {
     if (questionNo >= questions.length) {
         finalResult();
+        window.location.hash = `#${type}/${scores.I}-${scores.S}-${scores.V}-${scores.E}-${scores.A}-${scores.P}-${scores.X}-${scores.N}`;
         return true;
     }
     return false;
@@ -258,6 +259,7 @@ function resetTest() {
     hideMenu('test-menu');
     hideMenu('results-menu')
     showMenu('main-menu');
+    window.location.hash = `#`;
 }
 
 // 描述: 显示给定菜单
@@ -295,12 +297,16 @@ function finalResult() {
     typeDesc = '';
     type = '';
     transTypeDesc = '';
+    typeMap = [];
 
     typeMap.push(scores.I >= scores.S ? "I" : "S")
     typeMap.push(scores.V >= scores.E ? "V" : "E")
     typeMap.push(scores.A >= scores.P ? "A" : "P")
     typeMap.push(scores.X >= scores.N ? "X" : "N")
+    console.log("scores", scores)
+    console.log("typeMap", typeMap)
     type = typeMap.join('');
+    console.log("type2", type)
     let transMap = [];
     let keyMap = [];
     $.each(typeMap, function (index, value) {
@@ -310,16 +316,13 @@ function finalResult() {
     transTypeDesc = transMap.join(' / ');
     typeDesc = keyMap.join(' / ');
     type = type + '-' + getData(testType, 'mark');
+    console.log("type3", type)
 
     // 设置结果头部的测试类型输出
     $('#results-desc-header-type').text(type);
-    // 编辑描述
-    descriptions();
-    window.location.hash = `#${type}/${scores.I}-${scores.S}-${scores.V}-${scores.E}-${scores.A}-${scores.P}-${scores.X}-${scores.N}`;
 
     hideMenu('test-menu');
     showMenu('results-menu');
-
 }
 
 function getDesc(my_type, tags = [], output = ["I", "S", "V", "E", "A", "P", "X", "N"]) {
@@ -341,8 +344,62 @@ function getDesc(my_type, tags = [], output = ["I", "S", "V", "E", "A", "P", "X"
     return desc;
 }
 
+// Initialisation
+const hashRegex = /^#([IS][VE][AP][XN])-([A-Z]+)(?:\/(\d{1,3}(?:-(\d{1,3})){7}))?$/i;
+
+function processHash() {
+    console.log("识别hash", window.location.hash)
+    if (window.location.hash == '' || window.location.hash == '#') {
+        resetTest();
+        resetScores();
+        hideMenu('results-menu');
+    } else {
+        const m = hashRegex.exec(window.location.hash);
+        if (m !== null) {
+            const mark = (m[2] ?? '').toUpperCase();
+            const load = getData(mark);
+            testType = load.slug;
+            console.log("重置testType", testType)
+            changeTheme(load.bgColor);
+            if (m[3]) {
+                const tokens = m[3].split('-');
+                console.log('识别分数', tokens)
+                scores.I = parseInt(tokens[0]);
+                scores.S = parseInt(tokens[1]);
+                scores.V = parseInt(tokens[2]);
+                scores.E = parseInt(tokens[3]);
+                scores.A = parseInt(tokens[4]);
+                scores.P = parseInt(tokens[5]);
+                scores.X = parseInt(tokens[6]);
+                scores.N = parseInt(tokens[7]);
+            } else {
+                const type = m[1].toUpperCase();
+                console.log('初始化分数', type)
+                if (type[0] == 'I') scores.I = 30; else scores.S = 30;
+                if (type[1] == 'V') scores.V = 30; else scores.E = 30;
+                if (type[2] == 'A') scores.A = 30; else scores.P = 30;
+                if (type[3] == 'X') scores.X = 30; else scores.N = 30;
+            }
+            hideMenu('main-menu');
+            if (!type)
+                finalResult();
+            // 编辑描述
+            descriptions();
+        }
+    }
+}
+
+function getData(mark, key = null) {
+    let data = JSON.parse(localStorage.getItem(mark));
+    return key ? data[key] : data;
+}
+
+$(window).on('hashchange', processHash);
+processHash();
+
+
 function descriptions() {
-    typeDesc += "<br>" + transTypeDesc;
+    typeDesc = "<br>" + transTypeDesc;
     getJsonData('data/result/' + testType + '.json', (data) => {
         let special = data[type];
         uiElements.title2.text(special.name);
@@ -598,49 +655,3 @@ function descriptions() {
             uiElements.speciality.html(getDesc(testType, tags, output));
     })
 }
-
-// Initialisation
-const hashRegex = /^#([IS][VE][AP][XN])-([A-Z]+)(?:\/(\d{1,3}(?:-(\d{1,3})){7}))?$/i;
-
-function processHash() {
-    if (window.location.hash == '' || window.location.hash == '#') {
-        resetTest();
-        resetScores();
-        hideMenu('results-menu');
-    } else {
-        const m = hashRegex.exec(window.location.hash);
-        if (m !== null) {
-            const mark = (m[2] ?? '').toUpperCase();
-            const load = getData(mark);
-            testType = load.slug;
-            changeTheme(load.bgColor);
-            if (m[3]) {
-                const tokens = m[3].split('-');
-                scores.I = parseInt(tokens[0]);
-                scores.S = parseInt(tokens[1]);
-                scores.V = parseInt(tokens[2]);
-                scores.E = parseInt(tokens[3]);
-                scores.A = parseInt(tokens[4]);
-                scores.P = parseInt(tokens[5]);
-                scores.X = parseInt(tokens[6]);
-                scores.N = parseInt(tokens[7]);
-            } else {
-                const type = m[1].toUpperCase();
-                if (type[0] == 'I') scores.I = 30; else scores.S = 30;
-                if (type[1] == 'V') scores.V = 30; else scores.E = 30;
-                if (type[2] == 'A') scores.A = 30; else scores.P = 30;
-                if (type[3] == 'X') scores.X = 30; else scores.N = 30;
-            }
-            hideMenu('main-menu');
-            finalResult();
-        }
-    }
-}
-
-function getData(mark, key = null) {
-    let data = JSON.parse(localStorage.getItem(mark));
-    return key ? data[key] : data;
-}
-
-$(window).on('hashchange', processHash);
-processHash();
