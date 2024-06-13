@@ -4,7 +4,7 @@ function downloadAsPicture(imgName) {
         return (window.devicePixelRatio || 0.5) / backingStore;
     };
     //生成的图片名称
-    imgName += ".png";
+    imgName += ".jpg";
     var shareContent = document.getElementById("results-show");
     let descResult = $("#results-scores");
     let descBigScreenResult = $("#results-desc-score-text");
@@ -31,7 +31,7 @@ function downloadAsPicture(imgName) {
         context.webkitImageSmoothingEnabled = false;
         context.msImageSmoothingEnabled = false;
         context.imageSmoothingEnabled = false;
-        var dataUrl = canvas.toDataURL('image/png', 1.0);
+        var dataUrl = canvas.toDataURL('image/jpeg', 1.0);
         dataURIToBlob(imgName, dataUrl, callback);
     });
     descResult.attr('style', '');

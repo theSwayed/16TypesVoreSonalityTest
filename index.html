@@ -32,52 +32,41 @@
 <body>
 <div id='main-menu'>
     <h1 id='title'>丸吞爱好性格特质测试</h1>
-    <h3 id='subtitle'>找到你的丸吞倾向特质合集！</h3>
-    <div id="content">
-        <p>
-            你可以简称此测试为：STTI (Smuxray-TastyTales Type Indicator)。
-            <br>
-            此为个人翻译版，非原创，非转载，全文魔改。
-            <br>
-            如果您对测试内容感到疑惑甚至质疑，别骂，直接去原版。
-            <br>
-            原版测试地址：<a href="https://tastytales.github.io/">16 Types Voresonality Test</a>
-        </p>
-        <p>
-            感谢作者们开源内容，
-            <a href="https://aryion.com/forum/viewtopic.php?f=18&t=45206" target="_blank">查看作者原贴</a> 。
-        </p>
-        <p>
-            感谢某位&nbsp;进制代码转化工程师&nbsp;帮忙优化界面，教导替换内容，帮忙制作了图表与下载为图片的功能。
-        </p>
-        <p>
-            本测试基于
-            <a href="https://www.bilibili.com/video/BV1vN4y157Pm/" target="_blank">MBTI (梗百科视频)</a>
-            进行设计，旨在通过测试定位角色的16种丸吞性格特质，以得到角色的性格特质合集。
-        </p>
-        <p>
-            你可通过代入设定Or感兴趣的角色，得出角色的丸吞倾向特质集合；当然也可以选择代入自己以搞懂自己的成份。
-        </p>
-        <p>
-            请注意：本测试<span style="color:orangered;">纯娱乐向</span>，当前版本是我的个人翻译版，是基于原版2022.8.12更新的副本，截至2023.9的最新版。
-        </p>
-        <p>
-            <span style="color:orangered;">再次警告</span>：试题已被大量魔改，题目、结果与原版存在偏差，欢迎尝试，感谢提供宝贵意见，但不欢迎批评！
-        </p>
-    </div>
+    <h3 id='subtitle'>找到你的丸吞倾向特质！</h3>
+    <p>
+        此为个人翻译版，非原创，非转载，全文根据个人主观臆断进行了大量魔改和增删改操作。
+        <br>
+        如果您对测试内容感到疑惑甚至质疑，请勿骂街，直接去原版即可。
+        <br>
+        原版测试地址：<a href="https://tastytales.github.io/">16 Types Voresonality Test</a>
+    </p>
+    <p>
+        感谢作者开源内容，
+        <a href="https://aryion.com/forum/viewtopic.php?f=18&t=45206" target="_blank">点此查看原作者发布内容</a> 。
+    </p>
+    <p>
+        本测试基于
+        <a href="https://baike.baidu.com/item/迈尔斯布里格斯类型指标/854525" target="_blank">MBTI (链接指向百度百科)</a>
+        进行设计，旨在通过测试定位角色在我们总结的16个丸吞性格特质指标中的位置，总结角色是一个什么样的食者或猎物。
+    </p>
+    <p>
+        你可以通过代入你所设定的，或者感兴趣的角色来回答这些问题，以得出你的角色的丸吞倾向特质集合；当然，你也可以选择以自己的身份进行答题，看看你的成份是什么。
+    </p>
+    <p>
+        请注意：这个测试被创造的目的是为了娱乐，当前版本是我的个人翻译版本，是基于原版2022年8月12日更新的副本，截止2023年9月4日，此版为最新版。
+    </p>
+    <br>
+    <p>
+        再次警告：本测试进行了大量魔改，测试的题目与结果都与原版存在大量偏差，如果不满意，请随时离开，勿Cue！
+    </p>
 
     <p>请选择进行测试的角色的身份</p>
-    <div class="pick-button-container">
-        <button class="pick-pred" id='pred-button'>食者</button>
-        <button class="pick-wprey" id='wprey-button'>自愿型猎物</button>
-        <button class="pick-uprey" id='uprey-button'>被迫型猎物</button>
+    <div class="pick-button-container" id="pick-button">
     </div>
 </div>
 <div id='test-menu' style='display:none;'>
     <div id="progress-bar">
-        <div id="progress-bar-full">
-
-        </div>
+        <div id="progress-bar-full"></div>
     </div>
     <div id="question-containter">
         <div class="test-options">
@@ -94,7 +83,7 @@
         <button class="testbuttons" id="dis-button">不太一样</button>
         <button class="testbuttons" id="na-button">无法抉择</button>
         <button class="testbuttons" id="agr-button">大差不差</button>
-        <button class="testbuttons" id="stragr-button">非常认同</button>
+        <button class="testbuttons" id="stragr-button">非常同意</button>
     </div>
 </div>
 <div id='results-menu' style='display:none;'>
@@ -109,10 +98,7 @@
         </div>
         <div id="results-scores">
             <div id="main" style="width: 270px;height: 270px"></div>
-
-            <div id="results-desc-score-text">
-
-            </div>
+            <div id="results-desc-speciality-text"></div>
         </div>
     </div>
     <div id="results-buttons">
@@ -124,17 +110,23 @@
 
 <footer>
     <div>
-        <i>丸吞爱好性格特质测试&nbsp;原版测试地址：
-            <a href="https://tastytales.github.io/">16 Types Voresonality Test</a></i>
+        <i>丸吞爱好性格特质测试&nbsp;如果您对本测试感到疑惑甚至质疑，请前往原试题！原版测试地址：
+            <a href="https://tastytales.github.io/">
+                16 Types Voresonality Test
+            </a>
+        </i>
     </div>
 </footer>
 
-<script src="script/echarts.min.js"></script>
-<script src="script/script.js"></script>
 <script src="script/jquery-1.8.2.min.js"></script>
+<script src="script/echarts.min.js"></script>
 <script src="script/html2canvas.js"></script>
 <script src="script/bluebird.min.js"></script>
 <script src="script/download.js"></script>
+<script src="script/app.js"></script>
+<script>
+
+</script>
 
 </body>
 

@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "我从来都不觉得被吃掉是一件令人兴奋的事情。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我不太愿意理解或者接受那些人关于自愿成为猎物的想法或者观点。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "有几个我认为非常不错的女孩，如果是她们想要吃掉我的话，我想我还是蛮愿意将自己奉献给她们。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我认识到我最终的命运必然是被某个女孩吃掉时，我的内心会下意识浮现出几个待选的名字和容貌，而不是茫然地不知道自己最终会成为谁的一部分。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当一个陌生的女孩突然出现并表示她打算吃了我，也许我会表露不高兴、出无法接受的神色，但在心底里我暗自觉得的兴奋异常。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果她试图利用言语诱惑我主动成为她的食物，她并不可能如愿以偿，我不会让她得逞。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果她想要通过取笑我猎物的身份来达成她的目的，那么她很难取得成功，我不会配合她。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她口头上向我保证，只要我与她合作，她就会考虑不吃我。为了不被她吃掉，我会选择暂时与她合作。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果有机会利用她的人性说服她不要吃我，我会做这样的尝试。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会主动向她发起交易，只要她愿意接受不吃我的要求，任何条件我都可以答应，即便她信守承诺的概率很低。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会为了脱离她的控制选择对她造成伤害，并且不会去考虑她的感受。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果她利用我的善良逼迫我成为她的食物，我确实会为了道德与善良而犹豫，并认真考虑是否愿意放弃自身的生命安全选择成为她的食物。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "只要她付出的代价足够高昂，或者给出的理由足够充分，我也不是不可以奉献自己，从而满足她的要求，成为她的食物。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果我在某种情景下很不情愿地和她达成了成为她食物的协议，无论原因为何，我都会为了这协议而放弃可能活下去的机会，即使我的内心渴望活着。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当她如愿以偿地将我逼至绝地时，我会为了自己的生存而尽可能地和她讲道理，以使她放弃想要吃掉我的想法。",
+    "answers": [
+      {
+        "type": "I",
+        "value": 3
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": "S",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我被她捕获时，我会尽我所能地反抗并逃离，而不是主动屈服于成为食物的命运。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她的一些行为在不经意间给我制造了逃跑的机会，这个机会看起来更像是她准备用来玩弄我的一个陷阱，但我仍然会选择尝试逃跑。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我只能接受被她活着并完整地吞下去里这一结果，如果她提出会用牙齿将我嚼碎再吞下去，我打心底无法接受。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我的身体被她含在嘴里时，即使客观条件下我并不想被她这样对待，但这个行为仍然会令我感受到刺激的欲望。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "在她努力将我吞下去的过程中，我会尽可能地保持安静，以避免因被其他人发现自己成为食物的事实而产生更多的尴尬。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "在她的喉咙里，我意识到我可能真的无法逃脱了。也许我会象征性地挣扎两下，但我更倾向于在她吞下我的过程中保持安静。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "比起在她的喉咙里挣扎得筋疲力尽，我更倾向于保存实力，在她的胃里寻找逃脱的机会。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "直到我真的被困在了她狭窄而紧致的胃里，我感受到了强烈的恐惧，一切她带给我的美好幻想都烟消云散了。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当她已经吃掉了我，但我又不想就此死去，为了活命我将会不择手段，哪怕这会对她造成严重的伤害甚至死亡。",
+    "answers": [
+      {
+        "type": "S",
+        "value": 3
+      },
+      {
+        "type": "S",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "I",
+        "value": 1
+      },
+      {
+        "type": "I",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我一定不会在沉默中等待死亡的到来，而是会努力尝试重新爬回她的喉咙，重新回到她的嘴里。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会尽可能地让自己在她的胃里多活一段时间，因为对死亡和疼痛的本能抵触令我难以接受我正在被她消化、即将死于她肚子里的事实。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "我会在她的肚子里竭尽全力地争取存活，比如拳打脚踢、挣扎蠕动；或者大声呼喊以取得其他人的注意。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她在消化我的过程中，我的身体产生了疼痛，这使我十分恐惧。",
+    "answers": [
+      {
+        "type": "E",
+        "value": 3
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": "V",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她似乎及其擅长挑逗自己的食物，因为她的挑逗令我感觉有些羞耻，甚至可有点尴尬。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "自己沦为了她的食物这件事光是想想都觉得丢人。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果要让我以“她曾经的食物”的身份面对我的朋友，我宁可彻底消失在她的腹中，甚至希望自己从未在这个世界上出现过。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "被她吃掉这件事让我意识到自己的懦弱与屈服。",
+    "answers": [
+      {
+        "type": "V",
+        "value": 3
+      },
+      {
+        "type": "V",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "E",
+        "value": 1
+      },
+      {
+        "type": "E",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "虽然我表现得像是绝不会屈服于她一时兴起的欲望，但暗自里，我其实更希望她如同玩物一般地支配我，任她掌控。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我得知她因吃掉我而腹痛难忍时，我打心底觉得这是活下去的希望。",
+    "answers": [
+      {
+        "type": "P",
+        "value": 3
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": "A",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当她告诉我挣扎只会加快她消化我的速度时，我仍然选择努力争取逃离，而不是接受自己的命运，即便这样可能会使自己存活的时间缩短。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她告诉我，只要我能给她的胃壁做一些放松按摩，她就会考虑将我完整地活着释放出去。虽然很不情愿，但我还是会去争取这个机会。",
+    "answers": [
+      {
+        "type": "X",
+        "value": 3
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": "N",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当我在她的胃里筋疲力尽，无计可施，换来的却只是她发出了些许享受的呻吟或慵懒地打嗝时，我想我会瞬间放弃抵抗。",
+    "answers": [
+      {
+        "type": "A",
+        "value": 3
+      },
+      {
+        "type": "A",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "P",
+        "value": 1
+      },
+      {
+        "type": "P",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "她只需要表现出吃掉我或者消化我给她带来了令她愉悦的体验与享受，身在其中的我就会忍不感到兴奋，甚至会忍不住发出呻吟。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "当她戏谑地告诉我，我会如何加入到她的屁股或其他身体部位上时，我会有一种怪异的兴奋感。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "question": "如果我已经被她吸收掉了，我希望她本就妙曼的身体会因为我的加入而变得更加诱人。",
+    "answers": [
+      {
+        "type": "N",
+        "value": 3
+      },
+      {
+        "type": "N",
+        "value": 1
+      },
+      {
+        "type": null,
+        "value": null
+      },
+      {
+        "type": "X",
+        "value": 1
+      },
+      {
+        "type": "X",
+        "value": 3
+      }
+    ]
+  }
+]

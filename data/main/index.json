@@ -1,0 +1,20 @@
+[
+  {
+    "name": "食者",
+    "slug": "pred",
+    "mark": "D",
+    "bgColor": "rgb(224, 172, 95)"
+  },
+  {
+    "name": "自愿型猎物",
+    "slug": "w-prey",
+    "mark": "W",
+    "bgColor": "rgb(137, 226, 144)"
+  },
+  {
+    "name": "非自愿型猎物",
+    "slug": "u-prey",
+    "mark": "U",
+    "bgColor": "rgb(230, 169, 255)"
+  }
+]

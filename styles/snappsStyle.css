@@ -6,9 +6,6 @@
 :root {
     /* Theme Colors */
     --menu: rgb(221, 216, 202);
-    --pred: rgb(224, 172, 95);
-    --wPrey: rgb(137, 226, 144);
-    --uPrey: rgb(230, 169, 255);
     /* Score Colors */
     --indShaMain: #c6be4a;
     --indShaAlt: #772;
@@ -68,14 +65,13 @@ footer {
 
 h1 {
     font-family: "Kanit", sans-serif;
-    font-size: 22px;
     margin: 1.5rem 0 0 0;
 }
 
 h3 {
     font-family: "Kanit", sans-serif;
-    font-size: 18px;
-    margin: 15px 0;
+    font-size: 25px;
+    margin: 15 0;
 }
 
 p {
@@ -84,24 +80,6 @@ p {
 
 
 /* Test Themes */
-.predbody {
-    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), #222;
-    background-size: contain;
-    background-attachment: fixed;
-}
-
-.wpreybody {
-    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), #222;
-    background-size: contain;
-    background-attachment: fixed;
-}
-
-.upreybody {
-    background: linear-gradient(0deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(90deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(180deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), linear-gradient(270deg, var(--currentTheme) 0, #0000 min(5vw, 5vh)), #222;
-    background-size: contain;
-    background-attachment: fixed;
-}
-
 /* Progress Bar */
 #progress-bar {
     width: 100%;
@@ -211,19 +189,19 @@ p {
 }
 
 .pick-wprey {
-    background-color: var(--wPrey);
+    background-color: var(--w-prey);
 }
 
 .pick-wprey:hover {
-    filter: drop-shadow(3px 3px 12px var(--wPrey));
+    filter: drop-shadow(3px 3px 12px var(--w-prey));
 }
 
 .pick-uprey {
-    background-color: var(--uPrey);
+    background-color: var(--u-prey);
 }
 
 .pick-uprey:hover {
-    filter: drop-shadow(3px 3px 12px var(--uPrey));
+    filter: drop-shadow(3px 3px 12px var(--u-prey));
 }
 
 /* Test Buttons */
@@ -369,18 +347,18 @@ table tr:last-of-type {
     /*padding-bottom: 1em;*/
 }
 
-#results-desc-score-text {
+#results-desc-speciality-text {
     padding: 2em 1em;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 20vh;
 }
 
-.result-desc-TITLE {
+.result-desc-name {
     text-align: center;
     margin-bottom: .5em;
 }
 
-.result-desc-HEAD {
+.result-desc-desc {
     text-indent: 2em;
     margin-bottom: 1em;
 }
@@ -396,7 +374,7 @@ table tr:last-of-type {
         overflow-y: scroll;
     }
 
-    #results-desc-score-text {
+    #results-desc-speciality-text {
         overflow-y: unset;
         height: 20vh;
     }
