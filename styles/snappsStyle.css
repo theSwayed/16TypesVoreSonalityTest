@@ -366,8 +366,8 @@ table tr:last-of-type {
 }
 
 
-@media screen and (max-width: 800px) {
-    /* 在768px以下的屏幕尺寸应用以下样式 */
+@media screen and (max-width: 869px) {
+    /* 在869px以下的屏幕尺寸应用以下样式 */
     #results-scores {
         display: flex;
         flex-direction: column;
